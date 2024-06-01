@@ -36,10 +36,7 @@ As a Customer, I can
 
 
 ### Screenshots
-* Login
-![Image](https://drive.google.com/uc?export=view&id=1XmpgvCdYP8mndJ7ZOgmWcUszN_yN9aHz)
-* Register
-![Image](https://drive.google.com/uc?export=view&id=1HBbWgdmuRefimzI7TIVt6d7VoQHe8fHJ)
+
 * Home
 ![Image](https://drive.google.com/uc?export=view&id=1IIirQc-Kh-lshGVmeCXR1eW0ds5FXtWv)
 * Ticket List
@@ -50,6 +47,10 @@ As a Customer, I can
 ![Image](https://drive.google.com/uc?export=view&id=1e5CF0FUNbZNPsx4c-g4N0mwXfskD4Dga)
 * Profile
 ![Image](https://drive.google.com/uc?export=view&id=1Sar4l3-AOIvoW42FToooKh7PY1Ow5n0P)
+* Login
+![Image](https://drive.google.com/uc?export=view&id=1XmpgvCdYP8mndJ7ZOgmWcUszN_yN9aHz)
+* Register
+![Image](https://drive.google.com/uc?export=view&id=1HBbWgdmuRefimzI7TIVt6d7VoQHe8fHJ)
 
 
 ### API Routes
