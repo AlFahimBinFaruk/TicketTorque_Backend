@@ -1,4 +1,7 @@
 ## Ticket Torque Backend API
+* Live Link: Todo
+* [Client App Github](https://github.com/AlFahimBinFaruk/TicketTorque_Client)
+* Admin App: Todo
 
 
 ### Client Requirements
