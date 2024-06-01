@@ -32,7 +32,26 @@ As a Customer, I can
 * Database: PostgreSQL
 
 ### Database Models
-![Database Model Image](https://drive.google.com/uc?export=view&id=121yiSXoduMaBcuME5Rr7YUfNrzT_5HQt)
+![Database Model Image](https://drive.google.com/uc?export=view&id=1pfl9ac2Y6G205qchiZdQuecg0_3913K7)
+
+
+### Screenshots
+* Login
+![Image](https://drive.google.com/uc?export=view&id=1XmpgvCdYP8mndJ7ZOgmWcUszN_yN9aHz)
+* Register
+![Image](https://drive.google.com/uc?export=view&id=1HBbWgdmuRefimzI7TIVt6d7VoQHe8fHJ)
+* Home
+![Image](https://drive.google.com/uc?export=view&id=1IIirQc-Kh-lshGVmeCXR1eW0ds5FXtWv)
+* Ticket List
+![Image](https://drive.google.com/uc?export=view&id=1eyO5RCiibwwYYCaTLk0EBgP1vktJPB98)
+* Checkout
+![Image](https://drive.google.com/uc?export=view&id=1JGYd2u_3aqtFNsGkrk5Es5RkpUV4Akyq)
+* History
+![Image](https://drive.google.com/uc?export=view&id=1e5CF0FUNbZNPsx4c-g4N0mwXfskD4Dga)
+* Profile
+![Image](https://drive.google.com/uc?export=view&id=1Sar4l3-AOIvoW42FToooKh7PY1Ow5n0P)
+
+
 ### API Routes
 * To register - POST
 ```text
