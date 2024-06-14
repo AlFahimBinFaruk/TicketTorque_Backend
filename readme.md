@@ -1,7 +1,7 @@
 ## Ticket Torque Backend API
 * Live Link: Todo
 * [Client App Github](https://github.com/AlFahimBinFaruk/TicketTorque_Client)
-* Admin App: Todo
+* [Admin App Github](https://github.com/AlFahimBinFaruk/Adminpanel_TicketTorque/)
 
 
 ### Client Requirements
@@ -35,8 +35,7 @@ As a Customer, I can
 * Database: PostgreSQL
 
 ### Database Models
-![Database Model Image](https://drive.google.com/uc?export=view&id=1pfl9ac2Y6G205qchiZdQuecg0_3913K7)
-
+![Database Model Image](https://drive.google.com/uc?export=view&id=178CZFzpYTaSXX6w_Q8cFDjS2gRm52CII)
 
 ### Screenshots
 
