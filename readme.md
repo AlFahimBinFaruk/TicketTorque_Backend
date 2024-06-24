@@ -14,7 +14,7 @@ As a guest user, I can
 
 As an Admin user, I can
 * Login
-* View & edit profile(first,last name,email,password)
+* View & edit profile(first_name,last_name,email,password)
 * CRUD Users
 * CRUD roles(only 2 roles: admin,customer)
 * CRUD Tickets
