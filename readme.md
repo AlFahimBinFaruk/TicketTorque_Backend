@@ -35,7 +35,7 @@ As a Customer, I can
 * Database: PostgreSQL
 
 ### Database Models
-![Database Model Image](https://drive.google.com/uc?export=view&id=178CZFzpYTaSXX6w_Q8cFDjS2gRm52CII)
+![Database Model Image](https://drive.google.com/uc?export=view&id=1dAJKpOz3uefWzbuPdgm63obFaGpkaBK3)
 
 ### Screenshots
 
