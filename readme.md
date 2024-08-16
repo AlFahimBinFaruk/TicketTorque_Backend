@@ -148,9 +148,10 @@ As a Customer, I can
 ```text
 /apu/location/delete/{id}
 ```
-* Get all ticket list : everyone can access it, will have pagination - GET
+* Search for ticket : everyone can access it, will have pagination - GET
 ```text
-/api/ticket/{vehicle_id}/{category_id}/all
+api/ticket/all?category_id=123e4567-e89b-12d3-a456-426614174000&vehicle_id=123e4567-e89b-12d3-a456-426614174001&from=123e4567-e89b-12d3-a456-426614174002&to=123e4567-e89b-12d3-a456-426614174003&page=2
+
 ```
 * Get individual ticket details : everyone can access it- GET
 ```text
