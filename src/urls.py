@@ -23,5 +23,6 @@ urlpatterns = [
     path("api/",include("category.urls")),
     path("api/",include("location.urls")),
     path("api/",include("vehicle.urls")),
-    path("api/",include("ticket.urls"))
+    path("api/",include("ticket.urls")),
+    path("api/",include("order.urls"))
 ]

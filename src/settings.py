@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'category',
     'vehicle',
     'location',
-    'ticket'
+    'ticket',
+    'order'
 ]
 
 
