@@ -58,7 +58,7 @@ class Controller(AdminRoleMixin, APIView):
             if arrival_date:
                 arrival_date = datetime.strptime(arrival_date, '%Y-%m-%d').date()
             if departure_date:
-                departure_date = datetime.strptime(departure_date, '%Y-%m-%d').date()
+                departure_date = datetime.strptime(departure_date, '%Y-%m-%dT%H:%M').date()
         except ValueError:
             return JsonResponse({'error': 'Invalid date format. Use YYYY-MM-DD.'}, status=status.HTTP_400_BAD_REQUEST)
 

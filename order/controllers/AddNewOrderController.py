@@ -43,7 +43,7 @@ class Controller(IsAuthenticatedMixin, APIView):
             payment_date=None,
             payment_status="pending",
             order_status="pending",
-            transaction_id=None,
+            transaction_id="",
         )
         order.save()
 

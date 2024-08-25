@@ -47,6 +47,7 @@ class Controller(AdminRoleMixin, APIView):
                 'qty': order.qty,
                 'payment_date': order.payment_date,
                 'payment_status': order.payment_status,
+                'order_status':order.order_status,
                 'transaction_id': order.transaction_id,
                 'created_at': order.created_at,
                 'updated_at': order.updated_at

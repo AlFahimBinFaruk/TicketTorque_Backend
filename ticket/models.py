@@ -9,13 +9,13 @@ class Ticket(models.Model):
     price = models.CharField(max_length=255)
     qty = models.CharField(max_length=255)
     arrival_date = models.DateField()
-    departure_date = models.DateField()
+    departure_date = models.DateTimeField()
     boarding_point_name = models.CharField(max_length=255)
     dropping_point_name = models.CharField(max_length=255)
     from_location = models.ForeignKey('location.Location', related_name='departure_tickets', on_delete=models.CASCADE)
     to_location = models.ForeignKey('location.Location', related_name='arrival_tickets', on_delete=models.CASCADE)
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
-
+    
     def __str__(self):
         return self.name

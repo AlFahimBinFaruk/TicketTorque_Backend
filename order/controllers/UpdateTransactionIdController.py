@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 class Controller(IsAuthenticatedMixin, APIView):
-    def post(self, request, *args, **kwargs):
+    def put(self, request, *args, **kwargs):
         jwt_payload = getattr(request, 'jwt_payload', None)
 
         user_id = jwt_payload.get("id")
@@ -28,6 +28,7 @@ class Controller(IsAuthenticatedMixin, APIView):
 
             # Add the transaction ID to the order
             order.transaction_id = transaction_id
+            order.payment_status = "success"
             order.payment_date=datetime.now()
             order.save()
 

@@ -5,7 +5,7 @@ from ..models import Order
 from core.ValidateAdmin import AdminRoleMixin
 
 class Controller(AdminRoleMixin, APIView):
-    def post(self, request, *args, **kwargs):
+    def put(self, request, *args, **kwargs):
         
         data = request.data
         order_id = data.get('order_id')

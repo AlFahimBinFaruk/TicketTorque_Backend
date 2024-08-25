@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .controllers import AddNewTicketController,DeleteTicketController,UpdateTicketController,GetTicketListController, GetTicketDetailsController
+from .controllers import AddNewTicketController,DeleteTicketController,UpdateTicketController,GetTicketListController, GetTicketDetailsController, SearchTicketController
 
 urlpatterns=[
     path("ticket/add-new",AddNewTicketController.Controller.as_view(),name="add-new-ticket-view"),
@@ -8,6 +8,7 @@ urlpatterns=[
     path("ticket/delete/<uuid:ticket_id>",DeleteTicketController.Controller.as_view(),name="delete-ticket-view"),
     path("ticket/details/<uuid:ticket_id>",GetTicketDetailsController.Controller.as_view(),name="get-ticket-details-view"),
     path("ticket/all",GetTicketListController.Controller.as_view(),name="get-ticket-list-view"),
+    path("ticket/search",SearchTicketController.Controller.as_view(),name="search-ticket-view"),
 
 
 ]
